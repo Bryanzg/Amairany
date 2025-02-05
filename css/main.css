@@ -24,10 +24,8 @@ body {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  position: absolute;
-  top: 50%;              /* Posiciona el 50% del contenedor desde la parte superior */
-  left: 50%;             /* Posiciona el 50% del contenedor desde la izquierda */
-  transform: translate(-50%, -50%);
+  position: center;
+  margin-bottom: 20%;
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
