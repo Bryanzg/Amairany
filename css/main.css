@@ -24,7 +24,7 @@ body {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  position: center;
+  position: absolute;
   margin-bottom: 20%;
   z-index: 1;
   font-weight: bold;
@@ -49,6 +49,10 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  top: 0;              /* Ubica el elemento en la parte superior */
+  left: 50%;           /* Lo posiciona a la mitad horizontalmente */
+  transform: translateX(-50%); /* Centra el elemento horizontalmente */
+  margin-bottom: 0;    /* Elimina el margen inferior si ya no es necesario */
 }
 @keyframes fadeIn {
   from {
